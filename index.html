@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Treasure Collector</title>
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />   
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+            
+    </div>
+<div class="row">
+  <div class="col-md-3" id="title">Treasure Collector!</div>
+  </div>
+<div class="row">
+  <div class="col-md-6" id="instructions">
+      <p>You will be given a random number at the start of the game</p>
+      <p>There are four sea creatures below.  By clicking on a creature you will be adding a specific amount of points to your total score.</p>
+      <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+      <p>The value of the creatures is hidden from you until you click on them.</p>
+      <p>Each time when the game starts, the game will change the value of the creatures!</p>
+    </div>
+  </div>
+<div class="row">
+  <div class="col-md-2" id="total"><span id="targetNumber"> </span></div>
+  <div class="col-md-1" id="scoreBox">
+      <p>Wins: <span id="wins">0</span></p>
+      <p>Losses: <span id="losses">0</span></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <a><img class="guess" id="creature1" src="assets/images/c1.jpg"></a>
+        <a><img class="guess" id="creature2" src="assets/images/c2.jpg"></a>
+        <a><img class="guess" id="creature3" src="assets/images/c3.jpg"></a>
+        <a><img class="guess" id="creature4" src="assets/images/c4.jpg"></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2" id="totalText">
+        <p>Your total score is:</p>
+  
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2" id="random">
+        <span id="score">Score #</span>
+  
+    </div>
+</div>
+    
+        
+    
+    </div>
+       <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
